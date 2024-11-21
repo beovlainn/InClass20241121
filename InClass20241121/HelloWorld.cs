@@ -9,7 +9,12 @@ namespace InClass20241121
     {
         public static void SayHello()
         {
-            Console.WriteLine"Hello from HelloWorld.SayHello()";
+            Console.WriteLine("Hello from HelloWorld.SayHello");
+        }
+
+        public static void NewMethod()
+        {
+            Console.WriteLine("New method");
         }
     }
 }
